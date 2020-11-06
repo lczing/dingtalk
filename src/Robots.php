@@ -44,6 +44,9 @@ class Robots
         $this->url = 'https://oapi.dingtalk.com/robot/send?'. $query_string;
     }
 
+    /**
+     * 发送
+     */
     private function send($data)
     {
         // 设置url
